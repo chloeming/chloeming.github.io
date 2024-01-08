@@ -5,6 +5,7 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
           <h1 class="post-title">
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
@@ -20,7 +21,7 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded w3-opacity w3-hover-opacity-off" -%}
               {% endif %}
 
               {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
@@ -41,13 +42,13 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix" style="text-align:justify">
             {{ content }}
           </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: pink;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 

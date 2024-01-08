@@ -1,12 +1,13 @@
 {
   "basics": {
-    "name": "Kwok Wut Ming",
+    "name": "Kwok Wut Ming, Chloe",
     "label": "",
     "image": "",
     "email": "kwokwm0207@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Software Developer enjoyed in problem-solving and debugging"
+    "summary": "",
+    "location": "Vancouver, Canada"
   },
   "work": [
     {
@@ -65,25 +66,22 @@
   "education": [
     {
       "institution": "The Chinese University of Hong Kong",
-      "location": "Hong Kong",
       "url": "https://www.ie.cuhk.edu.hk/",
       "area": "Information Engineering",
       "studyType": "Bachelor",
-      "startDate": "2016-09",
-      "endDate": "2018-06",
+      "startDate": "2016",
+      "endDate": "2018",
       "courses": [
-        "GPA: 3.30 | Second Class Upper Division",
-        "Big Data - Systems and Applications"
+        "GPA: 3.30 | Second Class Upper Division"
       ]
     },
     {
       "institution": "The Hong Kong Polytechnic University",
-      "location": "Hong Kong",
       "url": "https://www.polyu.edu.hk/eie/",
       "area": "Electronic and Information Engineering",
       "studyType": "Higher Diploma",
-      "startDate": "2014-09",
-      "endDate": "2016-06",
+      "startDate": "2014",
+      "endDate": "2016",
       "courses": [
         "GPA: 3.62 | Distinction"
       ]
