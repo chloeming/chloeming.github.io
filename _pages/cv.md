@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: Resume📄
 nav: true
-nav_order: 1
+nav_order: 0
 cv_pdf: 
 description: 
 toc:
